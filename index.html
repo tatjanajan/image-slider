@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Image slider</title>
+</head>
+<body>
+    <div class="banner">
+        <ul class="slider">
+            <li class="slide slide--showing"></li>
+            <li class="slide"></li>
+            <li class="slide"></li>
+            <li class="slide"></li>
+            <li class="slide"></li>
+        </ul>
+
+        <ul class="slider__dot-nav">
+            <li class="slider__dot--active" onclick="selectSlide(0)"></li><li onclick="selectSlide(1)" ></li><li onclick="selectSlide(2)"></li><li onclick="selectSlide(3)"></li><li onclick="selectSlide(4)"></li>
+        </ul>    
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
